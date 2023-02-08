@@ -21,8 +21,10 @@ defmodule SimhashBench.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
+      {:benchee, "~> 1.1"},
+      {:similarity, git: "https://github.com/preciz/similarity"},
+      {:simhash, git: "https://github.com/UniversalAvenue/simhash-ex"},
+      {:spirit_fingers, "~>0.4.0"}
     ]
   end
 end
