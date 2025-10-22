@@ -21,10 +21,10 @@ defmodule SimhashBench.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:benchee, "~> 1.1"},
+      {:benchee, "~> 1.5"},
       {:similarity, git: "https://github.com/preciz/similarity"},
       {:simhash, git: "https://github.com/UniversalAvenue/simhash-ex"},
-      {:spirit_fingers, "~>0.4.0"}
+      {:spirit_fingers, "~> 0.5.1"}
     ]
   end
 end
